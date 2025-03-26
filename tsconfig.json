@@ -3,7 +3,6 @@
   "extends": "@tsconfig/node22/tsconfig.json",
   "compilerOptions": {
     "allowJs": true,
-    "outDir": "dist",
     "checkJs": true,
     "module": "esnext",
     "moduleResolution": "bundler",
@@ -18,6 +17,6 @@
       "~/*": ["./*"]
     }
   },
-  "include": ["**/*.js", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "dist"]
+  "include": ["**/*.js", "**/*.ts"],
+  "exclude": ["node_modules"]
 }
