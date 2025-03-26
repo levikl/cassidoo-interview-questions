@@ -5,7 +5,8 @@
   "author": "levikl",
   "packageManager": "pnpm@10.5.2",
   "scripts": {
-    "eval": "tsx main.ts"
+    "eval": "tsx main.ts",
+    "test": "vitest"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.0",
